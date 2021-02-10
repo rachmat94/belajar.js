@@ -65,8 +65,24 @@ gunakan tanda kutip dua " atau kutip satu ' jika ingin membuat string
 - contoh:
 -- "Javascript".length = 10
 
-
-
-
+# tipe data boolean
+ merupakan tipe yang digunakan untuk merepresentasikan logika true atau false
+ tipe data ini biasanya digunakan pada statement pengkodisian 
+ 
+ - nilai nilai yang ada pada javascript menyimpan nilai true | false, disebut dengan truthy | falsy
+ - Nilai nilai truthy dan falsy
+ ----------------------------------------------------------------
+ |  truthy                      |   falsy                       |
+ ----------------------------------------------------------------
+ |  non-zero number             |   0                           |
+ |  "string"                    |   ""                          |
+ |  object                      |   undefined                   |
+ |  arrays                      |   null                        |
+ |  functions                   |   NaN                         |
+ ----------------------------------------------------------------
+ - truthy menghasilkan nilai TRUE;
+ - falsy menghasilkan nilai FALSE;
+ - undefined: sebuah tipe yang dihasilkan ketika mendeklarasikan variable tapi belum mengisi nilai nya. var x;
+ - null: nilai kosong yang bisa diberikan pada sebuah variable. contoh: var x = null
 
 */
